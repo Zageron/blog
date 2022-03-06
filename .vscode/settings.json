@@ -1,4 +1,12 @@
 {
     "editor.formatOnSave": true,
     "files.eol": "\n",
+    "cSpell.enableFiletypes": [
+        "markdown"
+    ],
+    "cSpell.language": "en-GB",
+    "cSpell.words": [
+        "Ragnarok",
+        "Zageron"
+    ]
 }
