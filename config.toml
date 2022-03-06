@@ -1,14 +1,13 @@
 title = 'Isometric Game Blog'
-baseurl = "/"
+baseurl = "https://zageron.github.io/blog"
 languageCode = "en-us"
-theme = "PaperMod"
-paginate = 6
+theme = "papermod"
+paginate = 10
 
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
 
 [minify]
 disableXML = true
@@ -83,8 +82,8 @@ minMatchCharLength = 0
 keys = ["title", "permalink", "summary", "content"]
 
 [taxonomies]
-tag = "tags"
 series = "series"
+tag = "tags"
 
 [[menu.main]]
 identifier = "series"
@@ -97,10 +96,3 @@ identifier = "tags"
 name = "tags"
 url = "/tags/"
 weight = 20
-
-
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
