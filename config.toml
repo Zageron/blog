@@ -1,88 +1,106 @@
-title = 'My New Hugo Site'
+title = 'Isometric Game Blog'
 baseurl = "/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "PaperMod"
 paginate = 6
 
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
 [params]
-# dir name of your main content (default is `content/posts`).
-# the list of set content will show up on your index page (baseurl).
-contentTypeName = "posts"
+env = "development"
+title = "Isometric Game Blog"
+description = "Quick website to track my game development journey."
+keywords = ["GameDev", "Blog", "Rust"]
+author = "Zageron"
+defaultTheme = "light"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-# ["orange", "blue", "red", "green", "pink"]
-themeColor = "orange"
+[params.assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
 
-# if you set this to 0, only submenu trigger will be visible
-showMenuItems = 10
+[params.homeInfoParams]
+Title = "Hi there 👋"
+Content = "Welcome to my Isometric Game blog!"
 
-# show selector to switch language
-showLanguageSelector = false
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/@zageron"
 
-# set theme to full screen width
-fullWidthTheme = false
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/zageron"
 
-# center theme with default width
-centerTheme = true
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
 
-# if your resource directory contains an image called `cover.(jpg|png|webp)`,
-# then the file will be used as a cover automatically.
-# With this option you don't have to put the `cover` param in a front-matter.
-autoCover = true
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
 
-# set post to show the last updated
-# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-showLastUpdated = true
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
 
-# set a custom favicon (default is a `themeColor` square)
-# favicon = "favicon.ico"
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
 
-# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-# updatedDatePrefix = "Updated"
+[params.editPost]
+URL = "https://github.com/Zageron/blog/tree/main/content"
+Text = "Suggest Changes"
+appendFilePath = true
 
-# set all headings to their default size (depending on browser settings)
-# oneHeadingSize = true # default
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
 
-# whether to show a page's estimated reading time
-readingTime = true
+[taxonomies]
+tag = "tags"
+series = "series"
 
-# whether to show a table of contents
-# can be overridden in a page's front-matter
-Toc = true
+[[menu.main]]
+identifier = "series"
+name = "series"
+url = "/series/"
+weight = 10
 
-# set title for the table of contents
-# can be overridden in a page's front-matter
-# TocTitle = "Table of Contents" # default
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
 
 
-[params.twitter]
-# set Twitter handles for Twitter cards
-# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-# do not include @
-creator = "zageron"
-site = ""
-
-[languages]
-[languages.en]
-languageName = "English"
-title = "Terminal"
-subtitle = "A simple, retro theme for Hugo"
-owner = ""
-keywords = ""
-copyright = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-newerPosts = "Newer posts"
-olderPosts = "Older posts"
-missingContentMessage = "Page not found..."
-missingBackButtonLabel = "Back to home page"
-
-[languages.en.params.logo]
-logoText = "Zageron"
-logoHomeLink = "/"
-
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
+[[menu.main]]
+identifier = "example"
+name = "example.org"
+url = "https://example.org"
+weight = 30
