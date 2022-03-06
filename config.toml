@@ -15,7 +15,7 @@ disableXML = true
 minifyOutput = true
 
 [params]
-env = "development"
+env = "production"
 title = "Isometric Game Blog"
 description = "Quick website to track my game development journey."
 keywords = ["GameDev", "Blog", "Rust"]
