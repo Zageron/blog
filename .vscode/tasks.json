@@ -21,7 +21,8 @@
                 "server",
                 "-D",
                 "-F",
-                "--enableGitInfo"
+                "--enableGitInfo",
+                "--navigateToChanged"
             ],
             "problemMatcher": [
                 {
