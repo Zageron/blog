@@ -9,5 +9,5 @@ tags:
 - hex
 - tick
 series: ["Isometric Game Project"]
-draft: false
+draft: true
 ---
