@@ -18,3 +18,16 @@ series: ["Isometric Game Project"]
 ## What
 
 something
+
+```rust
+#[derive(Copy, Clone)]
+enum NodeDirection {
+    None,
+    North,
+    NorthEast,
+    East,
+    SouthEast,
+    West,
+    NorthWest,
+}
+```
