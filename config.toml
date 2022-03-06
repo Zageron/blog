@@ -1,5 +1,5 @@
 title = 'Isometric Game Blog'
-baseurl = "www.zageron.ca"
+baseurl = "zageron.ca"
 languageCode = "en-us"
 theme = "papermod"
 paginate = 10
