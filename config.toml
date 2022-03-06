@@ -9,6 +9,9 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 [minify]
 disableXML = true
 minifyOutput = true
@@ -52,6 +55,10 @@ url = "https://twitter.com/@zageron"
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/zageron"
+
+[[params.socialIcons]]
+name = "rss"
+url = "index.xml"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
