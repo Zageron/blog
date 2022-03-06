@@ -11,7 +11,13 @@
 
 ## Building and Deploying
 
-Everything should be automatic.
+From an elevated powershell run:
+
+```pwsh 
+choco install hugo-extended -confirm
+```
+
+VSC should take care of everything after that.
 
 See `.vscode/tasks.json` for details.
 
