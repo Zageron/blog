@@ -32,7 +32,7 @@ ShowCodeCopyButtons = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = true
-hidemeta = true
+hidemeta = false
 hideSummary = true
 showtoc = false
 tocopen = false
@@ -70,8 +70,8 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
 [params.cover]
-hidden = true
-hiddenInList = true
+hidden = false
+hiddenInList = false
 hiddenInSingle = true
 
 [params.editPost]
