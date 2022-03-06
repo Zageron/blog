@@ -1,6 +1,10 @@
 ---
+author: Zageron
+publishDate: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+slug: 
+tags: 
+series: 
 draft: true
 ---
 

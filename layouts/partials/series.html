@@ -1,0 +1,20 @@
+{{- if .Params.series }}
+{{ $link := .Permalink }}
+{{- $name := index .Params.series 0 }}
+<div class="toc">
+    <p><a href="" id="series"></a>This is a post in the <b>{{$name}}</b> series:</p>
+    {{ $name := $name | urlize }}
+    {{ $series := index .Site.Taxonomies.series $name }}
+    <ol class="series">
+        {{ range $series.Pages }}
+        <li>{{.Date.Format "Jan 02, 2006"}} -
+            {{ if eq .Permalink $link }}
+            {{.LinkTitle}}
+            {{else}}
+            <a href="{{.Permalink}}">{{.LinkTitle}} </a>
+            {{end}}
+        </li>
+        {{end}}
+    </ol>
+</div>
+{{end}}

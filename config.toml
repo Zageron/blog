@@ -22,6 +22,7 @@ title = "Isometric Game Blog"
 description = "Quick website to track my game development journey."
 keywords = ["GameDev", "Blog", "Rust"]
 author = "Zageron"
+DateFormat = "Monday, January 02, 2006 15:04"
 defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
