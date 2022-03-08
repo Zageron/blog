@@ -1,6 +1,6 @@
 ---
 author: Zageron
-publishDate: 	2022-03-06T20:02:17Z
+publishDate: 2022-03-07T14:00:00-08:00
 title: Starting the Prototype
 slug: starting-the-prototype
 description: "Blog! First look at the why and what of my prototype."
