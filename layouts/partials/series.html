@@ -6,7 +6,7 @@
     {{ $name := $name | urlize }}
     {{ $series := index .Site.Taxonomies.series $name }}
     <ol class="series">
-        {{ range $series.Pages }}
+        {{ range sort $series.Pages "Date" "asc" }}
         <li>{{.Date.Format "Jan 02, 2006"}} -
             {{ if eq .Permalink $link }}
             {{.LinkTitle}}
