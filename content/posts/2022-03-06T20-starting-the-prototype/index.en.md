@@ -53,7 +53,7 @@ Other games, like Mirrors Edge, have shown me that verticality in a game can be 
   - Grid games like RO aren't off scott free either.
   Players often find themselves very limited in their ability to control their character.
   Things can feel clunky or restricted because of the way that characters are expected to stand and move about the map.
-  - By using grid path-finding and positioning, entity locomotion often looks arbitrary mechanic.
+  - By using grid path-finding and positioning, entity locomotion often looks stiff or mechanical.
 
 ---
 
