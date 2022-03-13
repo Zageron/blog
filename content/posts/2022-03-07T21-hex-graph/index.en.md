@@ -1,6 +1,6 @@
 ---
 author: Zageron
-publishDate: 2022-03-08T08:00:00-08:00
+publishDate: 2022-03-14T08:00:00-08:00
 title: "Hex  Graph"
 slug: hex-graph
 tags: 
