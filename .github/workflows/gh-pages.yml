@@ -1,6 +1,8 @@
 name: github pages
 
 on:
+  schedule:
+  - cron: "1 * * * *"
   push:
     branches:
       - main
@@ -35,3 +37,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          force_orphan: true
+          cname: zageron.ca
