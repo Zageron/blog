@@ -31,7 +31,87 @@ Depending on the orientation of the graph, that means:
 
 ---
 
+## Clean-up from last time
+
+First things first, I was not happy with the module hierarchy in gamecore.
+So I switched up the file structure and updated the way imports and exports were done.
+
+### Gamecore
+
+<!-- omit in toc -->
+#### Before
+
+```txt
+src/
+├── graph.rs
+├── hex.rs
+└── lib.rs
+```
+
+`lib.rs`
+
+```rust
+pub mod graph;
+pub mod hex;
+```
+
+<!-- omit in toc -->
+#### After
+
+```txt
+src/
+├── types/
+│   ├── graph.rs
+│   ├── hex.rs
+│   └── mod.rs
+└── lib.rs
+```
+
+`mod.rs`
+
+```rust
+mod entity;
+mod graph;
+mod hex;
+
+pub use entity::*;
+pub use graph::*;
+pub use hex::*;
+```
+
+`lib.rs`
+
+```rust
+pub mod types;
+```
+
+### Render
+
+<!-- omit in toc -->
+#### Before
+
+`render/main.rs`
+
+```rust
+use gamecore::{graph::Graph, hex::Hex};
+```
+
+<!-- omit in toc -->
+#### After
+
+`render/main.rs`
+
+```rust
+use gamecore::types::{Graph, Hex};
+```
+
+> Much better!
+
+---
+
 ## The Entity
+
+- Add the Entity structure.
 
 ---
 
