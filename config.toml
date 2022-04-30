@@ -14,7 +14,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [minify]
 disableXML = true
-minifyOutput = true
+minifyOutput = false
 
 [params]
 env = "production"
