@@ -40,7 +40,7 @@ tocopen = false
 
 [params.homeInfoParams]
 Title = "Hi there 👋"
-Content = "Welcome to my Isometric Game blog!"
+Content = "Welcome to my blog!"
 
 [[params.socialIcons]]
 name = "twitter"
