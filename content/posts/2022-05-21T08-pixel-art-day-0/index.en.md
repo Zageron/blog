@@ -1,6 +1,6 @@
 ---
 author: Zageron
-publishDate: 2022-05-21T08:00:00-08:00
+publishDate: 2022-05-21T08:00:00-07:00
 title: "Pixel Art - Day 0"
 slug: "pixel-art-day-0"
 tags:
