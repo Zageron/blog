@@ -1,6 +1,6 @@
 ---
 author: Zageron
-publishDate: 2022-06-03T20:58:57-07:00
+publishDate: 2022-06-03T21:00:00-07:00
 title: "Pixel Art - Day 2"
 slug: "pixel-art-day-2"
 tags: 
