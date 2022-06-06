@@ -17,13 +17,15 @@ draft: false
 I spent a huge chunk of time watching tutorials today.
 Here are the videos I watched.
 
-[Pixel Art Class - What's The Right Canvas Size?](https://www.youtube.com/watch?v=upEGBGCiWEw)
+[![Video Label](http://img.youtube.com/vi/upEGBGCiWEw/0.jpg)](https://www.youtube.com/watch?v=upEGBGCiWEw)
 
-[Pixel Art Class - Simple Character Idle Animation](https://www.youtube.com/watch?v=vs-ierVdE7I)
+[![Video Label](http://img.youtube.com/vi/vs-ierVdE7I/0.jpg)](https://www.youtube.com/watch?v=vs-ierVdE7I)
 
 But first, the art I did today!
 
-### Todays' Art
+----
+
+### Today's Art
 
 #### Isometric Cloud Attempt
 
@@ -49,22 +51,24 @@ I ended up doing a bunch of calculations and came up with a set of pixel canvas 
 
 #### On-Screen Sprite Sizes: 16 x any number below 22
 
-64 x 64 (Tiny 16x4)
-80 x 80 (Small 16x5)
-128 x 128 (Medium 16x8)
-256 x 256 (Big 16x16)
-320 x 320 (Large 16x20)
-352 x 352 (Gargantuan 16x22 FullScreen)
-704 x 704 (Argentintuan 16x44 Overscan)
-1,072 x 1,072 (Titan 16x67 Overscan)
+- 64 x 64 (Tiny 16x4)
+- 80 x 80 (Small 16x5)
+- 128 x 128 (Medium 16x8)
+- 256 x 256 (Big 16x16)
+- 320 x 320 (Large 16x20)
+- 352 x 352 (Gargantuan 16x22 FullScreen)
+- 704 x 704 (Argentintuan 16x44 Overscan)
+- 1,072 x 1,072 (Titan 16x67 Overscan)
 
 #### Maximum On-Screen Sprite Canvas Size
 
-640 x 352
+- 640 x 352
 
 #### The Size Targets
 
 Here's a big [_thing_](canvas-sprite-size-experimentation.png) I did in GIMP.
+
+----
 
 ### Art Styles
 
