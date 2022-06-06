@@ -40,8 +40,6 @@ It reads as a balloon, but I don't think I quite got the isometric perspective.
 ![Balloon Small](008-balloon-iso-sm.png)
 ![Balloon Large](008-balloon-iso-lg.png)
 
-
-
 ----
 
 ### Canvas Size
