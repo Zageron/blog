@@ -2,7 +2,7 @@
 author: Zageron
 publishDate: 2022-06-05T19:00:00-07:00
 title: "Pixel Art - Day 4 and Blog"
-slug: "pixel-art-day-4"
+slug: "pixel-art-day-4-and-blog"
 tags: 
 - pixel
 - art
