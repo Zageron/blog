@@ -1,6 +1,6 @@
 ---
 author: Zageron
-publishDate: 2022-06-09T11:50:52-07:00
+publishDate: 2022-06-09T11:00:00-07:00
 title: "Pixel Art - Day 6 and blog"
 slug: "pixel-art-day-6-and-blog"
 tags: 
