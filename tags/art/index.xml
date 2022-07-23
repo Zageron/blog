@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>art on Zageron&#39;s Blog</title>
+    <link>https://zageron.ca/tags/art/</link>
+    <description>Recent content in art on Zageron&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2022 12:00:00 -0700</lastBuildDate><atom:link href="https://zageron.ca/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel Art - Day 13</title>
+      <link>https://zageron.ca/posts/pixel-art-day-13/</link>
+      <pubDate>Wed, 22 Jun 2022 12:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-13/</guid>
+      <description>I lost my work :| I made a stupid error today. I wasn&amp;rsquo;t saving consistently. Something mucked up and I tried to fix it with asesprite&amp;rsquo;s history tool, but used it incorrectly and deleted all of my work. Asesprite has a recovery system, but it wasn&amp;rsquo;t working correctly and the last backup was the last time I saved.
+What a nightmare, lost about an hour of work.
+Caustic Reflections Thankfully, I was streaming.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 12</title>
+      <link>https://zageron.ca/posts/pixel-art-day-12/</link>
+      <pubDate>Wed, 22 Jun 2022 11:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-12/</guid>
+      <description>Belated Pixel Dailies - Candy This was fun, I just found some random sources online. Forgot to write and post, so these are written on the same day.
+The Candy I tried to draw:
+A Mint Toffee Rockets Candy Corn Cya</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 11</title>
+      <link>https://zageron.ca/posts/pixel-art-day-11/</link>
+      <pubDate>Wed, 22 Jun 2022 10:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-11/</guid>
+      <description>I draw a Ragnarok sprite from reference My end goal is to draw Ragnarok inspired sprites, so this is another attempt to learn to do just that.
+Pouring I think this one went extremely well.
+Until next time.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 10</title>
+      <link>https://zageron.ca/posts/pixel-art-day-10/</link>
+      <pubDate>Fri, 17 Jun 2022 20:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-10/</guid>
+      <description>Starting to try to learn People Today was rough! I started out by collecting a ton of reference material from Ragnarok Online. Then I just went for it, using some online resources for &amp;ldquo;how to draw humans&amp;rdquo;.
+I&amp;rsquo;m not tracing but I am working directly off of a set of examples.
+Hopefully I can get some better form, or detail, tomorrow.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 9</title>
+      <link>https://zageron.ca/posts/pixel-art-day-9/</link>
+      <pubDate>Thu, 16 Jun 2022 20:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-9/</guid>
+      <description>Tutorials and a Request Cubes Tutorial UNO Today was excellent. The cube tutorials were very informative. A friend came out of nowhere with this random request, and it was extremely challenging. It took about 2 hours to complete.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 8</title>
+      <link>https://zageron.ca/posts/pixel-art-day-8/</link>
+      <pubDate>Tue, 14 Jun 2022 20:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-8/</guid>
+      <description>Hero Pedestal - Day 3 Alright, here&amp;rsquo;s the final. It could be so much better, but the perspective on this sword and the resolution, make it exceptionally challenging.
+I think next time I would forego borders completely.
+Thoughts on Borders Borders in isometric seem to be very detrimental. Considering the squash resolution it makes detail very challenging.
+Will try my next piece with either shaded borders or no border at all.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 7</title>
+      <link>https://zageron.ca/posts/pixel-art-day-7/</link>
+      <pubDate>Fri, 10 Jun 2022 21:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-7/</guid>
+      <description>Hero Pedestal - Day 2 Since I lost my work, I had to start again. Here&amp;rsquo;s 2 hours of progress. It sure is a challenge.
+My scale is all kinds of weird. I think it works? I&amp;rsquo;ll draw the sword next and call it a completion.
+Twitter Tutorial for Shapes A friend shared this with me. Read and bookmarked. What a gem!
+The Isometric Pixel Art Measurement Tutorial
+See you later!</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 6 and blog</title>
+      <link>https://zageron.ca/posts/pixel-art-day-6-and-blog/</link>
+      <pubDate>Thu, 09 Jun 2022 11:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-6-and-blog/</guid>
+      <description>Blog I was busy for the last few days, but I did do stuff! 😨
+Reworking prototype foundation Switched from the 2D camera with the hex grid example. Implemented an orthographic projection and figured out movement and rotations. (Rotations outside of an orthographic projection) Added some example items and a plane. (Will remove this later and do a height variable hex debug grid.) Added a few debug fields to egui to allow quicker camera testing.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 5</title>
+      <link>https://zageron.ca/posts/pixel-art-day-5/</link>
+      <pubDate>Mon, 06 Jun 2022 22:20:50 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-5/</guid>
+      <description>Pixel Dailies The prompt today was &amp;ldquo;wealth&amp;rdquo;, so I decided to create a treasure chest. I used the Ragnarok Online creep &amp;ldquo;mimic&amp;rdquo; as reference.
+Art Oh! And I animated it. 8)
+Small:
+Large:
+Issues Gold is right at the lip of the chest, giving it a pretty flat feel. The outside is rather bland and poorly shaded, I hit the 1hr mark so I had to leave it. Later gater.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 4 and Blog</title>
+      <link>https://zageron.ca/posts/pixel-art-day-4-and-blog/</link>
+      <pubDate>Sun, 05 Jun 2022 19:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-4-and-blog/</guid>
+      <description>Day 4 I spent a huge chunk of time watching tutorials today. Here are the videos I watched.
+But first, the art I did today!
+Today&amp;rsquo;s Art Isometric Cloud Attempt I attempted this cloud with no reference. It went ok?
+Afterward, I attempted an isometric balloon. It reads as a balloon, but I don&amp;rsquo;t think I quite got the isometric perspective.
+Canvas Size The canvas size thing was very interesting. I ended up doing a bunch of calculations and came up with a set of pixel canvas sizes.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 3</title>
+      <link>https://zageron.ca/posts/pixel-art-day-3/</link>
+      <pubDate>Sat, 04 Jun 2022 11:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-3/</guid>
+      <description>Day 3 I skipped the Pixel Dailies today because the prompt was #lechonk (a new pokemon).
+I did two studies today and then did a scene that I was inspired to do. Some of it turned out fine, we continue!
+Smalls:
+Biggos:
+That&amp;rsquo;s all for today!</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 2</title>
+      <link>https://zageron.ca/posts/pixel-art-day-2/</link>
+      <pubDate>Fri, 03 Jun 2022 21:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-2/</guid>
+      <description>Submission for Pixel Dailies Today&amp;rsquo;s prompt on @Pixel_Dailies was for a &amp;ldquo;sandbox&amp;rdquo;. Novice sandbox coming right up!
+Actual size:
+Scaled for detail:
+See ya tomorrow.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 1</title>
+      <link>https://zageron.ca/posts/pixel-art-day-1/</link>
+      <pubDate>Thu, 02 Jun 2022 22:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-1/</guid>
+      <description>First Day? Watched a few tutorials and lessons online, read through my textbook for an hour (i&amp;rsquo;ll talk more about it later), then drew this from reference.
+I did it in black and white instead of full color, and squashed it to make it easier. I think it turned out well.
+Actual size:
+Scaled for detail:
+Signing off!</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 0</title>
+      <link>https://zageron.ca/posts/pixel-art-day-0/</link>
+      <pubDate>Sat, 21 May 2022 08:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-0/</guid>
+      <description>Getting Started A quick post today! Just showing off my very first piece of pixel art! 😂
+Hope you like it!</description>
+    </item>
+    
+  </channel>
+</rss>

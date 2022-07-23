@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rust on Zageron&#39;s Blog</title>
+    <link>https://zageron.ca/tags/rust/</link>
+    <description>Recent content in rust on Zageron&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Mar 2022 08:00:00 -0800</lastBuildDate><atom:link href="https://zageron.ca/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hex  Graph</title>
+      <link>https://zageron.ca/posts/hex-graph/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/posts/hex-graph/</guid>
+      <description>Roll Your Own Reinventing the wheel will teach you.
+I&amp;rsquo;ve decided to use my own implementations of things for two reasons.
+I need to continue to learn and grow. Using prebuild libraries can cause choice paralyses. While a forever controversial opinion, in this case I think it is valid.
+(Also I used a linear algebra library. ;))
+Starting with Entity Positioning Stand here. Okay, don&amp;rsquo;t move.
+I referenced the following repositories and articles for this section:</description>
+    </item>
+    
+  </channel>
+</rss>

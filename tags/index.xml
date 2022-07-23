@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Zageron&#39;s Blog</title>
+    <link>https://zageron.ca/tags/</link>
+    <description>Recent content in Tags on Zageron&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2022 12:00:00 -0700</lastBuildDate><atom:link href="https://zageron.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2d</title>
+      <link>https://zageron.ca/tags/2d/</link>
+      <pubDate>Wed, 22 Jun 2022 12:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/tags/2d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://zageron.ca/tags/art/</link>
+      <pubDate>Wed, 22 Jun 2022 12:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>https://zageron.ca/tags/game/</link>
+      <pubDate>Wed, 22 Jun 2022 12:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pixel</title>
+      <link>https://zageron.ca/tags/pixel/</link>
+      <pubDate>Wed, 22 Jun 2022 12:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/tags/pixel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hex</title>
+      <link>https://zageron.ca/tags/hex/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/tags/hex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodes</title>
+      <link>https://zageron.ca/tags/nodes/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/tags/nodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://zageron.ca/tags/rust/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tick</title>
+      <link>https://zageron.ca/tags/tick/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/tags/tick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>planning</title>
+      <link>https://zageron.ca/tags/planning/</link>
+      <pubDate>Mon, 07 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/tags/planning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
