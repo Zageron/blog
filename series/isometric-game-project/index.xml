@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Isometric Game Project on Zageron&#39;s Blog</title>
+    <link>https://zageron.ca/series/isometric-game-project/</link>
+    <description>Recent content in Isometric Game Project on Zageron&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jun 2022 11:00:00 -0700</lastBuildDate><atom:link href="https://zageron.ca/series/isometric-game-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel Art - Day 6 and blog</title>
+      <link>https://zageron.ca/posts/pixel-art-day-6-and-blog/</link>
+      <pubDate>Thu, 09 Jun 2022 11:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-6-and-blog/</guid>
+      <description>Blog I was busy for the last few days, but I did do stuff! 😨
+Reworking prototype foundation Switched from the 2D camera with the hex grid example. Implemented an orthographic projection and figured out movement and rotations. (Rotations outside of an orthographic projection) Added some example items and a plane. (Will remove this later and do a height variable hex debug grid.) Added a few debug fields to egui to allow quicker camera testing.</description>
+    </item>
+    
+    <item>
+      <title>Pixel Art - Day 4 and Blog</title>
+      <link>https://zageron.ca/posts/pixel-art-day-4-and-blog/</link>
+      <pubDate>Sun, 05 Jun 2022 19:00:00 -0700</pubDate>
+      
+      <guid>https://zageron.ca/posts/pixel-art-day-4-and-blog/</guid>
+      <description>Day 4 I spent a huge chunk of time watching tutorials today. Here are the videos I watched.
+But first, the art I did today!
+Today&amp;rsquo;s Art Isometric Cloud Attempt I attempted this cloud with no reference. It went ok?
+Afterward, I attempted an isometric balloon. It reads as a balloon, but I don&amp;rsquo;t think I quite got the isometric perspective.
+Canvas Size The canvas size thing was very interesting. I ended up doing a bunch of calculations and came up with a set of pixel canvas sizes.</description>
+    </item>
+    
+    <item>
+      <title>Hex  Graph</title>
+      <link>https://zageron.ca/posts/hex-graph/</link>
+      <pubDate>Mon, 14 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/posts/hex-graph/</guid>
+      <description>Roll Your Own Reinventing the wheel will teach you.
+I&amp;rsquo;ve decided to use my own implementations of things for two reasons.
+I need to continue to learn and grow. Using prebuild libraries can cause choice paralyses. While a forever controversial opinion, in this case I think it is valid.
+(Also I used a linear algebra library. ;))
+Starting with Entity Positioning Stand here. Okay, don&amp;rsquo;t move.
+I referenced the following repositories and articles for this section:</description>
+    </item>
+    
+    <item>
+      <title>Starting the Prototype</title>
+      <link>https://zageron.ca/posts/starting-the-prototype/</link>
+      <pubDate>Mon, 07 Mar 2022 08:00:00 -0800</pubDate>
+      
+      <guid>https://zageron.ca/posts/starting-the-prototype/</guid>
+      <description>Blog! First look at the why and what of my prototype.</description>
+    </item>
+    
+  </channel>
+</rss>
