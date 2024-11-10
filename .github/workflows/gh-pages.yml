@@ -47,7 +47,7 @@ jobs:
         run: |
           hugo \
           --minify \
-          --enableGitInfo
+          --enableGitInfo \
           --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload Artifact
