@@ -1,14 +1,28 @@
-name: github pages
+name: Deploy Hugo
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
     paths-ignore:
       - "README.md"
       - ".git*"
       - ".vscode"
       - "LICENCE"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   deploy:
@@ -16,8 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
         with:
-          submodules: true
-          fetch-depth: 0
+          submodules: recursive
           lfs: true
 
       - name: Setup Hugo
@@ -26,14 +39,35 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Build
-        run: hugo --enableGitInfo
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5.0.0
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4.0.0
-        if: github.ref == 'refs/heads/main'
+      - name: Build
+        run: |
+          hugo \
+          --minify \
+          --enableGitInfo
+          --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          force_orphan: true
-          cname: zageron.ca
+          path: ./public
+
+  deploy-pages:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4.0.5
