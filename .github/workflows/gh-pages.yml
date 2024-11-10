@@ -1,38 +1,36 @@
 name: github pages
 
 on:
-  schedule:
-  - cron: "0 0 * * *"
   push:
     branches:
       - main
     paths-ignore:
-      - 'README.md'
-      - '.git*'
-      - '.vscode'
-      - 'LICENCE'
+      - "README.md"
+      - ".git*"
+      - ".vscode"
+      - "LICENCE"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.1.0
+      - uses: actions/checkout@v4.2.2
         with:
           submodules: true
           fetch-depth: 0
           lfs: true
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3.0.0
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Build
         run: hugo --enableGitInfo
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4.0.0
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
